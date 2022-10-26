@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+.playerList {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(min(6em, 100%), 1fr));
+  gap: 10px;
+}
+.playerList .playerItem {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid palevioletred;
+  border-radius: 5px;
+}
